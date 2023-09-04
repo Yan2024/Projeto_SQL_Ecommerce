@@ -74,10 +74,6 @@ JOIN DetalhesPedido ON Pedido.ID = DetalhesPedido.Pedido_ID
 JOIN Produto ON DetalhesPedido.Produto_ID = Produto.ID
 GROUP BY Pedido.ID;
 
--- Definição de ordenações dos dados com ORDER BY:
-
-SELECT * FROM Produto ORDER BY Nome;
-
 -- Recuperar todos os pedidos ordenados por data em ordem decrescente:
 
 SELECT * FROM Pedido ORDER BY Data DESC;
