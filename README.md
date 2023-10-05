@@ -18,5 +18,5 @@ Este repositório contém o código-fonte para um sistema de e-commerce simples.
 
 ## Tecnologias Utilizadas
 
-- SQL: Linguagem de programação principal.
+- SQL: Linguagem principal.
 - Banco de Dados: Para armazenar informações de clientes, fornecedores, produtos, pedidos e pagamentos.
